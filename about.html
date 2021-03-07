@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatable" content="IE=edge">
+	<meta name="discription" content="Urban Fashion">
+	<title>About Us</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/about.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="Container">
+		<!-- navigation bar , logo and cart logo-->
+		<div class="navbar">
+			<img src="images/logo.png" class="LOgo" alt="MainLogo">
+			<nav>
+				<ul id="menu_items">
+					<!--link 1 -->
+					<li><a href="home.html">Home</a></li>
+					<!--link 2 -->
+					<li><a href="tops.html">Shop</a></li>
+					<!--link 3 -->
+					<li><a href="Lookbook.html">Lookbook</a></li>
+					<!--link 4 -->
+					<li><a href="review.html">Reviews</a></li>
+					<!--link 5 -->
+					<li><a href="about.html">About</a></li>
+					<!--link 6 -->
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="images/cart.png" class="Cart" alt="Cartlogo">
+			<img src="images/menu.png" alt="menu" class="menu_icon" onclick="toggleMenu()">
+		</div>
+	</div>
+
+		
+
+	<div class="smallContainer">
+		<!-- contact us -->
+			<div class="Row">
+
+				<div class="Social_links">
+					<a href="https://www.facebook.com/profile.php?id=100013849356314">Facebook</a>
+					<a href="https://www.instagram.com/omeribrahim8877/">Instagram</a>
+					<a href="https://twitter.com/omeribr05993095">Twitter</a>
+				</div>
+				
+				<div class="col-2">
+					<img src="images/about1.jpg" alt="About image">
+				</div>	
+				<div class="col-2">
+					<h1 style="color: #ff0f0f">- Our Mission -</h1>
+					<p>Sell Product of the highest quality so every customer can find a Product they actually love to wear.</p>
+					<h1>ABOUT</h1>
+					<p>Hello and welcome to Urban Fashion, the place to find the best PRODUCTS for every taste and occasion. We thoroughly check the quality of our goods, working only with reliable suppliers so that you only receive the best quality product.</p><br>
+
+					<p>We at Urban Fashion believe in high quality and exceptional customer service. But most importantly, we believe shopping is a right, not a luxury, so we strive to deliver the best products at the most affordable prices, and ship them to you regardless of where you are located.
+					We’ve come a long way, so we know exactly which direction to take when supplying you with high quality yet budget-friendly products. We offer all of this while providing excellent customer service and friendly support.</p><br>
+
+					<p>We always keep an eye on the latest trends and put our customers’ wishes first. That is why we have satisfied customers all over the world, and are thrilled to be a part of the Urban Fashion industry.</p><br>
+					<p>The interests of our customers are always top priority for us, so we hope you will enjoy our products as much as we enjoy making them available to you.</p>
+				</div>		
+			</div>
+	</div>
+<!-- footer -->
+<div class="footer">
+	<div class="footercontainer">
+		<div class="Row">
+			<!-- footer column 1 -->
+			<div class="footerCol1">
+				<h3>Download our App</h3>
+				<p>Download App for android and IOS <br>
+				Mobile Phone</p>
+				<div class="app_logo">
+					<img src="images/app-store.png" alt="app store logo">
+					<img src="images/play-store.png" alt="play store logo">
+				</div>
+			</div>
+			<!-- footer column 2 -->
+			<div class="footerCol2">
+				<img src="images/logoFooter.png" alt="logo footer">
+				<p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+			</div>
+			<!-- footer column 3 -->
+			<div class="footerCol3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<!-- footer column 4 -->
+			<div class="footerCol4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">CopyRight 2021- Web-Creation</p>
+	</div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+	const menu_itemss = document.getElementById('menu_items');
+
+	menu_itemss.style.maxHeight = "0px";
+
+	function toggleMenu(){
+
+		if (menu_itemss.style.maxHeight == "0px") {
+
+			menu_itemss.style.maxHeight = "200px";
+
+		}else{
+
+			menu_itemss.style.maxHeight = "0px";
+
+		}
+	}
+</script>
+
+</html> 

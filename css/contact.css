@@ -1,0 +1,360 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+body{
+	font-family: 'Rubik', sans-serif;
+}
+
+.Container{
+	/*height: 100vh;*/
+	padding-left: 5%;
+	padding-right: 5%;
+	box-sizing: border-box;
+	position: relative;
+}
+
+.navbar{
+	width: 100%;
+	height: 15vh;
+	margin: auto;
+	display: flex;
+	align-items: center;
+}
+
+.LOgo{
+	width: 160px;
+	cursor: pointer;
+}
+
+.Cart{
+	width: 40px;
+	cursor: pointer;
+}
+
+nav{
+	flex: 1;
+	padding-left: 60px;
+}
+
+nav ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 15px;
+}
+
+nav ul li a{
+	position: relative;
+	text-decoration: none;
+	color: #333;
+	text-transform: uppercase;
+}
+
+nav ul li a:before{
+    content: "";
+    position: absolute;
+    top : 110%;
+    left: 0;
+    width: 0;
+    height: 2px;
+    border-bottom: 2px solid #ff77cd;
+    transition: all 0.4s linear;
+}
+
+nav ul li a:hover:before{
+    width: 100%;
+}
+
+.Social_links{
+	transform: rotate(90deg);
+	position: absolute;
+	left: -80px;
+	bottom: 180px;
+}
+
+.Social_links a{
+	text-decoration: none;
+	color: #6a7199;
+	padding-right: 20px;
+	font-size: 14px;
+}
+
+.col-2{
+	flex-basis: 50%;
+	min-width: 200px;
+}
+
+.col-2 h1{
+	color: #333;
+	margin: 10px 0;
+}
+
+.col-2 p{
+	color: #555;
+}
+
+/* for smaller screen size */
+.menu_icon{
+	width: 28px;
+	margin-left: 20px;
+	display: none;
+}
+
+.smallContainer{
+	max-width: 1080px;
+	margin: auto;
+	padding-right: 25px;
+	padding-left: 25px;
+}
+
+.Row{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+/* styling for footer */
+.footercontainer{
+	max-width: 1300px;
+	margin: auto;
+	padding-left: 70px;
+	padding-right: 70px;
+}
+
+.footer{
+	color: #8a8a8a;
+	background: #000;
+	font-size: 14px;
+	padding: 60px 0 20px;
+	margin-top: 20px;
+}
+
+.footer p{
+	color: #8a8a8a;
+}
+
+.footer h3{
+	color: #fff;
+	margin-bottom: 20px;
+}
+
+.footerCol1 , .footerCol2 , .footerCol3 , .footerCol4{
+	min-width: 250px;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+
+.footerCol1{
+	flex-basis: 30%;
+}
+
+.footerCol2{
+	flex: 1;
+	text-align: center;
+}
+
+.footerCol2 img{
+	width: 250px;
+	margin-bottom: 10px;
+}
+
+.footerCol3 , .footerCol4{
+	flex-basis: 12%;
+	text-align: center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.app_logo{
+	margin-top: 20px;
+}
+
+.app_logo img{
+	width: 140px;
+}
+
+.footer hr{
+	border: none;
+	background: #b5b5b5;
+	height: 1px;
+	margin: 20px 0;
+}
+
+.copyright{
+	text-align: center;
+}
+
+/* styling for form */
+.formContainer{
+	/*margin: 90px 70px;*/
+	border-radius: 20px;
+	margin-top: 90px;
+	margin-bottom: 70px;
+	margin-left: 70px;
+	height: 590px;
+	padding: 30px;
+	background: linear-gradient(45deg , #C7FFFF , #fff);
+}
+
+/* styling for label*/
+label{
+	font-size: 20px;
+	font-weight: 500;
+}
+
+/* styling for text and email and text area*/
+input[type=text] , input[type=email] , textarea{
+    width: 90%; 
+    margin: 16px 0;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+/* removing outline for text and email*/
+input[type=text] , input[type=email] , textarea:focus{
+	outline: none;
+}
+
+/* styling for button */
+input[type=button]{
+	display: inline-block;
+	background-color: #6bfff0;
+	width: 50%;
+	color: black;
+	padding: 8px 30px;
+	margin: 10px 120px;
+	border: 2px solid #6bfff0;
+	font-size: 15px;
+	border-radius: 10px;
+	text-align: center;
+	transition: background-color 0.9s;
+}
+
+/* hover effect*/
+input[type=button]:hover{
+	color: black;
+	background-color: #fff;
+	border: 2px solid #6bfff0;
+}
+
+/* removing outline */
+input[type=button]:focus{
+	outline: none;
+}
+
+.row:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* styling to have both fname and Lname in one row */
+.fifty{
+	width: 47%;
+	float: left;
+}
+
+/* replaced form */
+#rform{
+    text-align: center;
+    font-size: 23px;
+    word-spacing: 1px;
+    font-weight: 700;
+    display: none
+}
+
+/* styling for error */
+#error1 , #error2 , #error3 , #error4 , #error5{
+	margin-bottom: 10px;
+	font-weight: normal;
+	color: #d10000;
+}
+
+/* styling for contact info part */
+.col-2 hr{
+	margin: 20px 0px;
+}
+
+.col-2 p{
+	line-height: 25px;
+}
+
+.letterSpacing{
+	letter-spacing: 5px;
+}
+
+/* responsiveness */
+/* media query for screen width 800px */
+@media screen and (max-width: 800px){
+	/* for navigation bar */
+	nav ul{
+		position: absolute;
+		top: 70px;
+		left: 0px;
+		background: #333;
+		width: 100%;
+		overflow: hidden; 
+		transition: max-Height 0.9s;
+	}
+	/* for navigation bar */
+	nav ul li{
+		display: block;
+		margin-right: 50px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+	/* for navigation bar */
+	nav ul li a{
+		color: #fff;
+	}
+	/* for navigation bar */
+	.menu_icon{
+		display: block;
+		cursor: pointer;
+	}
+	/* footer */
+	.footerCol1{
+		text-align: center;
+	}
+
+	/* flex basis changed from 50% , 30% , 20% to 100% for smaller screen width */
+	.col-2 , .col-3 , .col-4{
+		flex-basis: 100%;
+	}
+
+	.formContainer{
+		margin: 30px auto;
+	}
+
+	input[type=button]{
+		margin: auto 150px;
+	}
+
+}
+
+/* responsive for screen width upto 600px */
+@media screen and (max-width: 600px){
+	.row{
+		text-align: center;
+	}
+
+	/* flex basis changed from 50% , 30% , 20% to 100% for smaller screen width */
+	.col-2 , .col-3 , .col-4{
+		flex-basis: 100%;
+	}
+
+	.formContainer{
+		height: 610px;
+		margin: 30px auto;
+	}
+
+	input[type=button]{
+		margin: auto 90px;
+	}
+}
