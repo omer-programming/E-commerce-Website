@@ -1,0 +1,215 @@
+<!DOCTYPE html> 
+<html>  
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-compatable" content="IE=edge">
+	<meta name="discription" content="Urban Fashion">
+	<title>Products</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/category.css">
+	<script type="text/javascript" src="javascript/category.js"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<div class="Container">
+		<!-- navigation bar , logo and cart logo-->
+		<div class="navbar">
+			<img src="images/logo.png" class="LOgo" alt="MainLogo">
+			<nav>
+				<ul id="menu_items">
+					<!--link 1 -->
+					<li><a href="home.html">Home</a></li>
+					<!--link 2 -->
+					<li><a href="tops.html">Shop</a></li>
+					<!--link 3 -->
+					<li><a href="Lookbook.html">Lookbook</a></li>
+					<!--link 4 -->
+					<li><a href="review.html">Reviews</a></li>
+					<!--link 5 -->
+					<li><a href="about.html">About</a></li>
+					<!--link 6 -->
+					<li><a href="Contact.html">Contact</a></li>
+				</ul>
+			</nav>
+			<img src="images/cart.png" class="Cart" alt="Cartlogo">
+			<img src="images/menu.png" alt="menu" class="menu_icon" onclick="toggleMenu()">
+		</div>
+
+	</div>
+
+<!-- product Navigation Menu -->
+<div class="smallContainer">
+	<div class="Row Row3">
+		
+		<nav class="Product_menu">
+			<ul class="categoryListt">
+				<!--link 1 -->
+				<li id="top">Tops</li>
+				<!--link 2 -->
+				<li id="bottom">Bottoms</li>
+				<!--link 3 -->
+				<li id="jacket">Jackets</li>
+				<!--link 4 -->
+				<li id="shoes">Shoes</li>
+				<!--link 5 -->
+				<li id="ring">Rings</li>
+				<!--link 6 -->
+				<li id="necklace">Necklaces</li>
+				<!--link 7 -->
+				<li id="watches">Watches</li>
+				<!--link 8 -->
+				<li id="bracelets">bracelets</li>
+				<!--link 9 -->
+				<li id="night_wears">Night Wears</li>
+				<!--link 10 -->
+				<li id="sale">Sale</li>
+			</ul>
+		</nav>
+	</div>
+</div>
+
+<!-- Tops product -->
+<div class="smallContainer">
+
+	<!-- for horizontal line below product links -->
+	<hr>
+
+	<div class="Social_links">
+		<a href="https://www.facebook.com/profile.php?id=100013849356314">Facebook</a>
+		<a href="https://www.instagram.com/omeribrahim8877/">Instagram</a>
+		<a href="https://twitter.com/omeribr05993095">Twitter</a>
+	</div>
+
+	<div class="Row Row2">
+		<h2 id="heading"></h2>
+		<select>
+			<option>Default Sorting</option>
+			<option>Sort by Price</option>
+			<option>Sort by Popularity</option>
+			<option>Sort by Rating</option>
+			<option>Sort by Sale</option>
+		</select>
+	</div>
+
+	<!-- dynamic insertion of product -->
+	<div class="Row4">
+		
+	</div>
+
+	<div class="page_btn">
+		<a><span>1</span></a>
+		<a><span>2</span></a>
+		<a><span>3</span></a>
+		<a><span>4</span></a>
+		<a><span>&#8594;</span></a>
+	</div>
+	<!-- <section class="pages">	
+		<div class="Row4 is-active" data-page="1">
+		
+		</div>
+		<div class="Row4" data-page="2">
+			<p>ok</p>
+		</div>
+		<div class="Row4" data-page="3">
+			<p>okii</p>
+		</div>
+		<div class="Row4" data-page="4">
+			<p>okiii</p>
+		</div>
+		<div class="Row4" data-page="5">
+			<p>okiiii</p>
+		</div>
+	</section> -->
+
+	<!-- <div class="page_btn">
+		<ul class="tabs">
+			<li class="tab is-active">
+				<a data-switcher data-tab="1">1</a>
+			</li>
+			<li class="tab">
+				<a data-switcher data-tab="2">2</a>
+			</li>
+			<li class="tab">
+				<a data-switcher data-tab="3">3</a>
+			</li>
+			<li class="tab">
+				<a data-switcher data-tab="4">4</a>
+			</li>
+			<li class="tab">
+				<a data-switcher data-tab="5">&#8594;</a>
+			</li>
+		</ul>
+	</div> -->
+
+</div>
+
+<!-- footer -->
+<div class="footer">
+	<div class="footercontainer">
+		<div class="Row">
+			<!-- footer column 1 -->
+			<div class="footerCol1">
+				<h3>Download our App</h3>
+				<p>Download App for android and IOS <br>
+				Mobile Phone</p>
+				<div class="app_logo">
+					<img src="images/app-store.png" alt="app store logo">
+					<img src="images/play-store.png" alt="play store logo">
+				</div>
+			</div>
+			<!-- footer column 2 -->
+			<div class="footerCol2">
+				<img src="images/logoFooter.png" alt="logo footer">
+				<p>Our Purpose is to sustainably make the pleasure and benefits of sports accessible to the many.</p>
+			</div>
+			<!-- footer column 3 -->
+			<div class="footerCol3">
+				<h3>Useful Links</h3>
+				<ul>
+					<li>Coupons</li>
+					<li>Blog Post</li>
+					<li>Return Policy</li>
+					<li>Join Affiliate</li>
+				</ul>
+			</div>
+			<!-- footer column 4 -->
+			<div class="footerCol4">
+				<h3>Follow Us</h3>
+				<ul>
+					<li>Facebook</li>
+					<li>Twitter</li>
+					<li>Instagram</li>
+					<li>Youtube</li>
+				</ul>
+			</div>
+		</div>
+		<hr>
+		<p class="copyright">CopyRight 2021- Web-Creation</p>
+	</div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+	const menu_itemss = document.getElementById('menu_items');
+
+	menu_itemss.style.maxHeight = "0px";
+
+	function toggleMenu(){
+
+		if (menu_itemss.style.maxHeight == "0px") {
+
+			menu_itemss.style.maxHeight = "200px";
+
+		}else{
+
+			menu_itemss.style.maxHeight = "0px";
+
+		}
+	}
+</script>
+
+</html>

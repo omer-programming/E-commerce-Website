@@ -1,5 +1,5 @@
 *{
-	margin: 0px;
+	margin: 0px; 
 	padding: 0px;
 }
 
@@ -42,6 +42,7 @@ nav ul li{
 	display: inline-block;
 	list-style: none;
 	margin: 0px 15px;
+	cursor: pointer;
 }
 
 nav ul li a{
@@ -127,6 +128,14 @@ nav ul li a:hover:before{
 	justify-content: space-around;
 	align-items: center;
 	flex-wrap: wrap;
+}
+
+.Row4{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 90px;
 }
 
 .col-4{
@@ -232,6 +241,41 @@ select{
 .active_nav_link a{
 	color: black !important;
 }
+
+/* image darken class onhover effect on products */
+.image-darken {
+	transition: 1s;
+	filter: brightness(10%);
+}
+
+/*.page_btn .tabs .tab a[data-switcher]{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border: 1px solid #ff77cd;
+	text-align: center;
+	color: #ff77cd;
+	cursor: pointer;
+}
+
+.page_btn .tabs .tab.is-active a[data-switcher]{
+	background: #ff77cd;
+	color: #fff;
+}
+
+.page_btn .tabs .tab:hover a[data-switcher]{
+	background: #ff77cd;
+	color: #fff;
+}
+
+.pages .Row4{
+	display: none;
+}
+
+.pages .Row4.is-active{
+	display: block;
+}*/
 
 /* styling for footer */
 .footercontainer{
