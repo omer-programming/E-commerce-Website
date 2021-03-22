@@ -1,7 +1,7 @@
 *{
-	margin: 0px; 
+	margin: 0px;  
 	padding: 0px;
-}
+} 
 
 body{
 	font-family: 'Rubik', sans-serif;
@@ -248,7 +248,7 @@ select{
 	filter: brightness(10%);
 }
 
-/*.page_btn .tabs .tab a[data-switcher]{
+.page_btn .tabs .tab a[data-switcher]{
 	display: inline-block;
 	width: 40px;
 	height: 40px;
@@ -275,7 +275,19 @@ select{
 
 .pages .Row4.is-active{
 	display: block;
-}*/
+}
+
+.page_btn{
+	flex: 1;
+	padding-left: 60px;
+}
+
+.page_btn ul li{
+	display: inline-block;
+	list-style: none;
+	margin: 0px 15px;
+	cursor: pointer;
+}
 
 /* styling for footer */
 .footercontainer{

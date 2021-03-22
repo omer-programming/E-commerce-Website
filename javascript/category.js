@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', ()=> {
 let CategoryList = [
     
-    // product one   
+    // product one     
             {
                 image : "images/top1.jpg" ,
                 productName : "Sonia Skirt" , 
@@ -1093,7 +1093,298 @@ let CategoryList = [
                 ratings : 4.0 ,
                 price: 59.00,
                 brand : "JollyChic"
-            }
+            },
+            // ===================jackets================
+            //product one
+            {
+                image : "images/jacket1.PNG",
+                productName : "Women's Synthetic Leather Jacket Solid Color Long Sleeve",
+                ratings : 4.0,
+                price: "AED 133.00",
+                brand : "Urban Fashion"
+            },
+            //product two
+            {
+                image : "images/jacket2.PNG",
+                productName : "Women's Jacket Solid Color Long Sleeve Pocket Hooded",
+                ratings : 4.0,
+                price: "AED 52.00",
+                brand : "Urban Fashion"
+            },
+            //product three
+            {
+                image : "images/jacket3.PNG",
+                productName : "Women's Bomber Jacket Letters Pattern Hooded Casual Jacket",
+                ratings : 3.5,
+                price: "AED 63.00",
+                brand : "Urban Fashion"
+            },
+            //product four
+            {
+                image : "images/jacket4.PNG",
+                productName : "Women's Synthetic Leather Jacket Zipper Long Sleeve",
+                ratings : 5.0,
+                price: "AED 42.00",
+                brand : "Urban Fashion"
+            },
+            //product five
+            {
+                image : "images/jacket5.PNG",
+                productName : "Women's Denim Jacket Long Sleeve Thicken Turn Down Collar",
+                ratings : 5.0,
+                price: "AED 102.00",
+                brand : "Urban Fashion"
+            },
+            //product six
+            {
+                image : "images/jacket6.PNG",
+                productName : "Women's Synthetic Leather Jacket Fleece Thicken Slim Fit ",
+                ratings : 5.0,
+                price: "AED 118.00",
+                brand : "Urban Fashion"
+            },
+            //product seven
+            {
+                image : "images/jacket7.PNG",
+                productName : "Women's Denim Coat Imitation Pearl Long Sleeve Single",
+                ratings : 4.5,
+                price: "AED 125.00",
+                brand : "Urban Fashion"
+            },
+            //product eight
+            {
+                image : "images/jacket8.PNG",
+                productName : "Women's Wool Blend Coat Solid Color Long Sleeve",
+                ratings : 5.0,
+                price: "AED 209.99",
+                brand : "Urban Fashion"
+            },
+            //product nine
+            {
+                image : "images/jacket9.PNG",
+                productName : "Women's Wool Blend Coat Solid Color Double Breasted Overcoat",
+                ratings : 5.0,
+                price: "AED 211.00",
+                brand : "Urban Fashion"
+            },
+            //product ten
+            {
+                image : "images/jacket10.PNG",
+                productName : "Women's Wool Blend Coat Solid Color Long Sleeve Notched",
+                ratings : 5.0,
+                price: "AED 109.99",
+                brand : "Urban Fashion"
+            },
+            //product eleven
+            {
+                image : "images/jacket11.PNG",
+                productName : "Women's Biker Jacket Solid Color Long Sleeve Street Style PU Jacket",
+                ratings : 5.0,
+                price: "AED 111.00",
+                brand : "Urban Fashion"
+            },
+            //product twelve
+            {
+                image : "images/jacket12.PNG",
+                productName : "Women's Vest Jacket Plaid Pattern Single Breasted Fashion Vest Jacket",
+                ratings : 5.0,
+                price: "AED 114.99",
+                brand : "Urban Fashion"
+            },
+            // ====== page 2 =====
+            //product thirteen
+            {
+                image : "images/jacket13.PNG",
+                productName : "Men's Trench Coats Turn Down Collar Polyester",
+                ratings : 5.0,
+                price: "AED 107.00",
+                brand : "Urban Fashion"
+            },
+            //product fourteen
+            {
+                image : "images/jacket14.PNG",
+                productName : "Men's Casual Jacket Solid Color Zipper Pocket Fashion Outerwear",
+                ratings : 4.0,
+                price: "AED 61.00",
+                brand : "Urban Fashion"
+            },
+            //product fifteen
+            {
+                image : "images/jacket15.PNG",
+                productName : "Men's Sun-Protective Jacket Fashion Long Sleeve Stand Collar",
+                ratings : 5.0,
+                price: "AED 65.00",
+                brand : "Urban Fashion"
+            },
+            //product sixteen
+            {
+                image : "images/jacket16.PNG",
+                productName : "Men's Quilted Coat Fashion Casual Solid Color Outerwear",
+                ratings : 5.0,
+                price: "AED 262.00",
+                brand : "Urban Fashion"
+            },
+            //product seventeen
+            {
+                image : "images/jacket17.PNG",
+                productName : "Men's Casual Jacket Fashion Long Sleeve Loose Jacket",
+                ratings : 4.0,
+                price: "AED 78.00",
+                brand : "Urban Fashion"
+            },
+            //product eighteen
+            {
+                image : "images/jacket18.PNG",
+                productName : "SEMIR Men's Denim Jacket Hooded Single-Breasted Pocket",
+                ratings : 5.0,
+                price: "AED 89.00",
+                brand : "Urban Fashion"
+            },
+            //product nineteen
+            {
+                image : "images/jacket19.PNG",
+                productName : "Deerskin Coat Men's Spring And Autumn 2020 New",
+                ratings : 5.0,
+                price: "AED 203.00",
+                brand : "Urban Fashion"
+            },
+            //product twenty
+            {
+                image : "images/jacket20.PNG",
+                productName : "2020 New Autumn Coat Men's Fashion Leather Jacket Men's Youth",
+                ratings : 5.0,
+                price: "AED 227.00",
+                brand : "Urban Fashion"
+            },
+            //product twenty one
+            {
+                image : "images/jacket21.PNG",
+                productName : "Men's Casual Jacket Simple Solid Color Hooded",
+                ratings : 4.0,
+                price: "AED 100.00",
+                brand : "Urban Fashion"
+            },
+            //product twenty two
+            {
+                image : "images/jacket22.PNG",
+                productName : "Men's Denim Jacket Oversized Single Breasted Comfortable",
+                ratings : 4.5,
+                price: "AED 96.00",
+                brand : "Urban Fashion"
+            },
+            //product twenty three
+            {
+                image : "images/jacket23.PNG",
+                productName : "Men's Quilted Coat Hooded Zipper Solid Color Winter Coat",
+                ratings : 5.0,
+                price: "AED 207.50",
+                brand : "Urban Fashion"
+            },
+            //product twenty four
+            {
+                image : "images/jacket24.PNG",
+                productName : "Men's New Denim Jacket Denim Jacket ",
+                ratings : 5.0,
+                price: "AED 258.00",
+                brand : "Urban Fashion"
+            },
+            // ====== page 3 =====
+            //product twenty five
+            {
+                image : "images/jacket25.PNG",
+                productName : "Women's Vest Jacket Patchwork Pocket Reversible Zipper Warm",
+                ratings : 5.0,
+                price: "AED 93.99",
+                brand : "Urban Fashion"
+            },
+            //product twenty six
+            {
+                image : "images/jacket26.PNG",
+                productName : "Women's Vest Jacket Solid Color Stand Collar Quilted Vest Jacket",
+                ratings : 5.0,
+                price: "AED 93.99",
+                brand : "Urban Fashion"
+            },
+            //product twenty seven
+            {
+                image : "images/jacket27.PNG",
+                productName : "Women's Jacket Long Sleeve Houndstooth Patchwork Fleece ",
+                ratings : 5.0,
+                price: "AED 140.00",
+                brand : "Urban Fashion"
+            },
+            //product twenty eight
+            {
+                image : "images/jacket28.PNG",
+                productName : "Women's Biker Jacket Zippered Long Sleeve Solid Color Street",
+                ratings : 5.0,
+                price: "AED 89.99",
+                brand : "Urban Fashion"
+            },
+            //product twenty nine
+            {
+                image : "images/jacket29.PNG",
+                productName : "Women's Biker Jacket Solid Color Long Sleeve Plush Jacket",
+                ratings : 5.0,
+                price: "AED 78.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty
+            {
+                image : "images/jacket30.PNG",
+                productName : "Women's Biker Jacket Solid Color Turn Down Collar Long",
+                ratings : 5.0,
+                price: "AED 82.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty one
+            {
+                image : "images/jacket31.PNG",
+                productName : "Women's Biker Jacket Solid Color Long Sleeve Street Style PU",
+                ratings : 5.0,
+                price: "AED 111.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty two
+            {
+                image : "images/jacket32.PNG",
+                productName : "Women's Biker Jacket Leopard Pattern Long Sleeve Zipper Jacket",
+                ratings : 5.0,
+                price: "AED 78.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty three
+            {
+                image : "images/jacket33.PNG",
+                productName : "Women's Vest Jacket Color Block Open Front Reversible",
+                ratings : 5.0,
+                price: "AED 63.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty four
+            {
+                image : "images/jacket34.PNG",
+                productName : "Women's Vest Jacket Fashion Horn Button Pocket",
+                ratings : 5.0,
+                price: "AED 145.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty five
+            {
+                image : "images/jacket35.PNG",
+                productName : "Women's Jacket Hooded Long Sleeve Pocket Causal Outerwear",
+                ratings : 5.0,
+                price: "AED 104.00",
+                brand : "Urban Fashion"
+            },
+            //product thirty six
+            {
+                image : "images/jacket36.PNG",
+                productName : "Women's Vest Jacket Stand Collar Solid Color Quilted Vest",
+                ratings : 5.0,
+                price: "AED 112.99",
+                brand : "Urban Fashion"
+            },
 ];
 
 
@@ -1103,31 +1394,28 @@ CategoryList.sort(() => Math.ceil(12));
 
 window.onload = function() {
 
-    // const tab_switchers = document.querySelectorAll("[data-switcher]");
+    const tab_switchers = document.querySelectorAll("[data-switcher]");
 
-    // for(let i = 0 ; i < tab_switchers.length ; i++){
-    //     const tab_switcher = tab_switchers[i];
-    //     const page_id = tab_switcher.dataset.tab;
+    for(let i = 0 ; i < tab_switchers.length ; i++){
+        const tab_switcher = tab_switchers[i];
+        const page_id = tab_switcher.dataset.tab; 
 
-    //     tab_switcher.addEventListener("click", ()=>{
-    //         document.querySelector(".tabs .tab.is-active").classList.remove("is-active");
-    //         tab_switcher.parentNode.classList.add("is-active");
+        tab_switcher.addEventListener("click", ()=>{
+            document.querySelector(".tabs .tab.is-active").classList.remove("is-active");
+            tab_switcher.parentNode.classList.add("is-active");
 
-    //         switchPage(page_id);
-    //     })
-    // }
+            switchPage(page_id);
+        })
+    }
 
-    // function switchPage(page_id){
-    //     const currentPage = document.querySelector(".pages .Row4.is-active");
-    //     if(currentPage != null){
-    //         console.log("working");
-    //     }
-    //     currentPage.classList.remove("is-active");
+    function switchPage(page_id){
+        const currentPage = document.querySelector(".pages .Row4.is-active");
+        currentPage.classList.remove("is-active");
 
-    //     const nextPage = document.querySelector(`.pages .Row4[data-page="${page_id}"]`);
-    //     nextPage.classList.add("is-active");
+        const nextPage = document.querySelector(`.pages .Row4[data-page="${page_id}"]`);
+        nextPage.classList.add("is-active");
 
-    // }
+    }
     
     var MainContainer = document.querySelector('.Row4');
     var top = document.querySelectorAll("#top");
@@ -1225,11 +1513,41 @@ window.onload = function() {
                 Container.appendChild(brandname);
         
                 //adding newpost to postimage (ParentElement)
-                MainContainer.appendChild(Container);   
+                MainContainer.appendChild(Container);  
             }
         }
 
     })(i)
+
+    //top page 2
+        for (var i = 0; i < CategoryList.length; i++) {
+            if(CategoryList[i] === CategoryList[48]) break
+
+                //creating element
+                var Container = document.createElement("div");
+                var images = document.createElement("img");
+                var name = document.createElement("h4");
+                var rating = document.createElement("h4");
+                var prices = document.createElement("p");
+                var brandname = document.createElement("h4");
+
+                //adding class of col-4 to div
+                Container.classList.add("col-4");
+
+                images.src = CategoryList[i].image;
+                name.innerText = CategoryList[i].productName;
+                rating.innerText = CategoryList[i].ratings;
+                prices.innerText = CategoryList[i].price;
+                brandname.innerText = CategoryList[i].brand;
+
+                Container.appendChild(images);
+                Container.appendChild(name);
+                Container.appendChild(rating);
+                Container.appendChild(prices);
+                Container.appendChild(brandname);
+
+                MainContainer.appendChild(Container);
+        }
 
      //bottom
     for(let i = 0, len = bottom.length ; i < len ; i++)
@@ -1288,6 +1606,34 @@ window.onload = function() {
             jackets[i].classList.add("active_nav_link");
 
             headings.innerText = "Jackets";
+
+            for (let i = 132; i < CategoryList.length; i++) {
+                
+                if(CategoryList[i] === CategoryList[180]) break
+
+                    var Container = document.createElement("div");
+                    var images = document.createElement("img");
+                    var prices = document.createElement("p");
+                    var rating = document.createElement("h4");
+                    var name = document.createElement("h4");
+                    var brandname = document.createElement("h4");
+
+                    Container.classList.add("col-4");
+
+                    images.src = CategoryList[i].image;
+                    name.innerText = CategoryList[i].productName;
+                    rating.innerText = CategoryList[i].ratings;
+                    prices.innerText = CategoryList[i].price;
+                    brandname.innerText = CategoryList[i].brand;
+
+                    Container.appendChild(images);
+                    Container.appendChild(name);
+                    Container.appendChild(rating);
+                    Container.appendChild(prices);
+                    Container.appendChild(brandname);
+
+                    MainContainer.appendChild(Container);
+            }
         }
     })(i)
 
